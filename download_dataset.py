@@ -31,9 +31,9 @@ def downloadClass(classKey, URLMap):
 # Include new URLs from the Visual Tracker dataset here.
 urls = ['http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Basketball.zip',
 		'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Biker.zip',
-		# 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Freeman4.zip',
-		# 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/BlurCar2.zip',
-		# 'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Bird1.zip'
+		'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Freeman4.zip',
+		'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/BlurCar2.zip',
+		'http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Bird1.zip'
 	]
 
 
