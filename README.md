@@ -2,7 +2,7 @@
 
 This is a reference implementation of Video Frame Interpolation via Adaptive Separable Convolution [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://graphics.cs.pdx.edu/project/adaconv) [2] in a separable manner to interpolate the intermediate frame. Should you be making use of the work, please cite the paper [1].
 
-This is a modified version of [original code](https://github.com/sniklaus/pytorch-sepconv), implemented by [Hyeongmin Lee](https://github.com/HyeongminLEE).
+This is a modified version of [original code](https://github.com/HyeongminLEE/pytorch-sepconv), implemented by [Hyeongmin Lee](https://github.com/HyeongminLEE).
 
 ## setup
 The separable convolution layer is implemented in CUDA using CuPy, which is why CuPy is a required dependency. It can be installed using `pip install cupy` or alternatively using one of the provided binary packages as outlined in the CuPy repository.
